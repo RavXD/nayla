@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.DeveloperMode = 'false' //true atau false, true berati iya false berati tidak Moga paham
+global.DeveloperMode = 'True' //true atau false, true berati iya false berati tidak Moga paham
 global.owner = ['6283818101132'] // masuk in no lu sebagai owner
 global.mods = ['6283818101132'] // masuk in no moderator ny
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // ini buat premium
